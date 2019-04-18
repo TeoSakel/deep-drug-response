@@ -33,3 +33,6 @@ optional arguments:
 `drug` must be one of the columns of `matrix` the rest are treated as genes.
 The hyperparameters used in the paper are specifed in `hyperparams/`.
 All of them are specified as lists in order to be able to expand the grid.
+
+The script `batch_correct.R` is used to correct for batch effects between the training and
+test dataset if required.
