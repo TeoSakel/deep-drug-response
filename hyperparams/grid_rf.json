@@ -1,0 +1,11 @@
+[
+  {
+    "ntrees": [500],
+    "max_depth": [10, 20, 50],
+    "mtries": [0.3333, 0.25, 0.2, 0.1667],
+    "min_rows": [5, 10, 15],
+    "stopping_rounds": [5],
+    "stopping_tolerance": [0.01],
+    "max_runtime_secs": [10800]
+  }
+]
